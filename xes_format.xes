@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T14:01:31.746981+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T14:01:31.746981+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T14:09:42.474719+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T14:09:42.474719+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="case_id" value="2" />
+			<string key="activity" value="next recipe submitted" />
+			<date key="timestamp" value="2022-09-04T14:25:31.746981+00:00" />
+			<string key="concept:name" value="next recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T14:25:31.746981+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="case_id" value="3" />
+			<string key="activity" value="next recipe submitted" />
+			<date key="timestamp" value="2022-09-04T14:43:38.306892+00:00" />
+			<string key="concept:name" value="next recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T14:43:38.306892+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="3" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T14:48:49.568420+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T14:48:49.568420+00:00" />
+		</event>
+	</trace>
+</log>
