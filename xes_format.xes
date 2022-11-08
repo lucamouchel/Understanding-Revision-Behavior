@@ -1,44 +1,72 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
-	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<string key="origin" value="csv" />
 	<trace>
 		<string key="concept:name" value="1" />
 		<event>
 			<int key="case_id" value="1" />
 			<string key="activity" value="1st recipe submitted" />
-			<date key="timestamp" value="2022-09-04T14:01:31.746981+00:00" />
+			<date key="timestamp" value="2022-09-04T03:28:18.613319+00:00" />
 			<string key="concept:name" value="1st recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T14:01:31.746981+00:00" />
+			<date key="time:timestamp" value="2022-09-04T03:28:18.613319+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="1" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T14:09:42.474719+00:00" />
+			<date key="timestamp" value="2022-09-04T03:29:37.124556+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T14:09:42.474719+00:00" />
+			<date key="time:timestamp" value="2022-09-04T03:29:37.124556+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:29:47.816111+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:29:47.816111+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="1" />
 			<string key="activity" value="second recipe submitted" />
-			<date key="timestamp" value="2022-09-04T14:25:32.108391+00:00" />
+			<date key="timestamp" value="2022-09-04T03:33:03.555075+00:00" />
 			<string key="concept:name" value="second recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T14:25:32.108391+00:00" />
-		</event>
-		<event>
-			<int key="case_id" value="1" />
-			<string key="activity" value="third recipe submitted" />
-			<date key="timestamp" value="2022-09-04T14:43:38.306892+00:00" />
-			<string key="concept:name" value="third recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T14:43:38.306892+00:00" />
+			<date key="time:timestamp" value="2022-09-04T03:33:03.555075+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="1" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T14:48:49.568420+00:00" />
+			<date key="timestamp" value="2022-09-04T03:33:30.062465+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T14:48:49.568420+00:00" />
+			<date key="time:timestamp" value="2022-09-04T03:33:30.062465+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:34:08.666681+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:34:08.666681+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:35:33.869167+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:35:33.869167+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:36:08.454643+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:36:08.454643+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="1" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:36:43.142187+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:36:43.142187+00:00" />
 		</event>
 	</trace>
 	<trace>
@@ -46,23 +74,37 @@
 		<event>
 			<int key="case_id" value="2" />
 			<string key="activity" value="1st recipe submitted" />
-			<date key="timestamp" value="2022-09-04T08:25:33.749181+00:00" />
+			<date key="timestamp" value="2022-09-04T03:18:54.102570+00:00" />
 			<string key="concept:name" value="1st recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T08:25:33.749181+00:00" />
+			<date key="time:timestamp" value="2022-09-04T03:18:54.102570+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="2" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:36:35.203544+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:36:35.203544+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="2" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:46:39.547420+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:46:39.547420+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="2" />
 			<string key="activity" value="second recipe submitted" />
-			<date key="timestamp" value="2022-09-04T08:48:22.939280+00:00" />
+			<date key="timestamp" value="2022-09-04T03:59:42.023029+00:00" />
 			<string key="concept:name" value="second recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T08:48:22.939280+00:00" />
+			<date key="time:timestamp" value="2022-09-04T03:59:42.023029+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="2" />
 			<string key="activity" value="third recipe submitted" />
-			<date key="timestamp" value="2022-09-04T08:57:11.509818+00:00" />
+			<date key="timestamp" value="2022-09-04T04:12:57.346331+00:00" />
 			<string key="concept:name" value="third recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T08:57:11.509818+00:00" />
+			<date key="time:timestamp" value="2022-09-04T04:12:57.346331+00:00" />
 		</event>
 	</trace>
 	<trace>
@@ -70,37 +112,51 @@
 		<event>
 			<int key="case_id" value="3" />
 			<string key="activity" value="1st recipe submitted" />
-			<date key="timestamp" value="2022-09-04T06:03:50.361959+00:00" />
+			<date key="timestamp" value="2022-09-04T01:35:13.140640+00:00" />
 			<string key="concept:name" value="1st recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T06:03:50.361959+00:00" />
+			<date key="time:timestamp" value="2022-09-04T01:35:13.140640+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="3" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T06:44:42.647998+00:00" />
+			<date key="timestamp" value="2022-09-04T01:38:29.122889+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T06:44:42.647998+00:00" />
+			<date key="time:timestamp" value="2022-09-04T01:38:29.122889+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="3" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T01:38:41.881012+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T01:38:41.881012+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="3" />
 			<string key="activity" value="second recipe submitted" />
-			<date key="timestamp" value="2022-09-04T06:55:18.132912+00:00" />
+			<date key="timestamp" value="2022-09-04T01:45:56.975167+00:00" />
 			<string key="concept:name" value="second recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T06:55:18.132912+00:00" />
-		</event>
-		<event>
-			<int key="case_id" value="3" />
-			<string key="activity" value="third recipe submitted" />
-			<date key="timestamp" value="2022-09-04T06:57:07.581104+00:00" />
-			<string key="concept:name" value="third recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T06:57:07.581104+00:00" />
+			<date key="time:timestamp" value="2022-09-04T01:45:56.975167+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="3" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T07:04:19.949896+00:00" />
+			<date key="timestamp" value="2022-09-04T01:46:45.010283+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T07:04:19.949896+00:00" />
+			<date key="time:timestamp" value="2022-09-04T01:46:45.010283+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="3" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T01:57:57.905430+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T01:57:57.905430+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="3" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T01:58:12.031600+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T01:58:12.031600+00:00" />
 		</event>
 	</trace>
 	<trace>
@@ -108,51 +164,1608 @@
 		<event>
 			<int key="case_id" value="4" />
 			<string key="activity" value="1st recipe submitted" />
-			<date key="timestamp" value="2022-09-04T07:23:26.323936+00:00" />
+			<date key="timestamp" value="2022-09-04T11:52:36.845641+00:00" />
 			<string key="concept:name" value="1st recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T07:23:26.323936+00:00" />
+			<date key="time:timestamp" value="2022-09-04T11:52:36.845641+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="4" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T07:43:17.565043+00:00" />
+			<date key="timestamp" value="2022-09-04T11:54:57.330812+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T07:43:17.565043+00:00" />
+			<date key="time:timestamp" value="2022-09-04T11:54:57.330812+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="4" />
 			<string key="activity" value="second recipe submitted" />
-			<date key="timestamp" value="2022-09-04T08:04:52.621001+00:00" />
+			<date key="timestamp" value="2022-09-04T12:03:43.763294+00:00" />
 			<string key="concept:name" value="second recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T08:04:52.621001+00:00" />
+			<date key="time:timestamp" value="2022-09-04T12:03:43.763294+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="4" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T08:07:56.304317+00:00" />
+			<date key="timestamp" value="2022-09-04T12:04:45.445832+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T08:07:56.304317+00:00" />
+			<date key="time:timestamp" value="2022-09-04T12:04:45.445832+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="4" />
 			<string key="activity" value="third recipe submitted" />
-			<date key="timestamp" value="2022-09-04T08:17:28.674740+00:00" />
+			<date key="timestamp" value="2022-09-04T12:11:26.107473+00:00" />
 			<string key="concept:name" value="third recipe submitted" />
-			<date key="time:timestamp" value="2022-09-04T08:17:28.674740+00:00" />
+			<date key="time:timestamp" value="2022-09-04T12:11:26.107473+00:00" />
 		</event>
 		<event>
 			<int key="case_id" value="4" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T08:19:46.246438+00:00" />
+			<date key="timestamp" value="2022-09-04T12:12:15.459769+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T08:19:46.246438+00:00" />
+			<date key="time:timestamp" value="2022-09-04T12:12:15.459769+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="case_id" value="5" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:54:47.635022+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:54:47.635022+00:00" />
 		</event>
 		<event>
-			<int key="case_id" value="4" />
+			<int key="case_id" value="5" />
 			<string key="activity" value="revision" />
-			<date key="timestamp" value="2022-09-04T08:20:06.871117+00:00" />
+			<date key="timestamp" value="2022-09-04T08:58:06.982217+00:00" />
 			<string key="concept:name" value="revision" />
-			<date key="time:timestamp" value="2022-09-04T08:20:06.871117+00:00" />
+			<date key="time:timestamp" value="2022-09-04T08:58:06.982217+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="5" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:32:02.843754+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:32:02.843754+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="5" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:49:22.626830+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:49:22.626830+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="case_id" value="6" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:25:42.472822+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:25:42.472822+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="6" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:27:09.725979+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:27:09.725979+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="6" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:38:07.085291+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:38:07.085291+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="6" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:38:41.197238+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:38:41.197238+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="6" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:48:31.982130+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:48:31.982130+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="6" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:49:36.427858+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:49:36.427858+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="case_id" value="7" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:07:42.994456+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:07:42.994456+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="7" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:09:22.809195+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:09:22.809195+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="7" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:18:47.027595+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:18:47.027595+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="7" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:20:05.818396+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:20:05.818396+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="7" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:27:39.075924+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:27:39.075924+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8" />
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:34:55.221065+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:34:55.221065+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:54:47.889053+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:54:47.889053+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:07:18.820335+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:07:18.820335+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:08:23.282663+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:08:23.282663+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:08:49.874622+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:08:49.874622+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:28:55.781724+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:28:55.781724+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="8" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:30:24.310966+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:30:24.310966+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9" />
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:05:36.001740+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:05:36.001740+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:07:54.382807+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:07:54.382807+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:08:25.785661+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:08:25.785661+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:09:16.271875+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:09:16.271875+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:14:42.800611+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:14:42.800611+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:25:46.115073+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:25:46.115073+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:26:10.758482+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:26:10.758482+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="9" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:31:27.620433+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:31:27.620433+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10" />
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:00:19.207117+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:00:19.207117+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:00:37.121065+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:00:37.121065+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:01:37.861873+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:01:37.861873+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:01:44.665697+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:01:44.665697+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:02:40.923359+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:02:40.923359+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:05:39.598929+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:05:39.598929+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:06:15.169045+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:06:15.169045+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="10" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:13:03.843226+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:13:03.843226+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11" />
+		<event>
+			<int key="case_id" value="11" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T13:18:22.782958+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T13:18:22.782958+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="11" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T13:19:30.150640+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T13:19:30.150640+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="11" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T13:30:04.706723+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T13:30:04.706723+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="11" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T13:37:18.797960+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T13:37:18.797960+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="11" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T13:40:00.102052+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T13:40:00.102052+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12" />
+		<event>
+			<int key="case_id" value="12" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:26:45.470337+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:26:45.470337+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="12" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:28:32.169585+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:28:32.169585+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="12" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:30:22.886943+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:30:22.886943+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="12" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:30:35.835787+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:30:35.835787+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13" />
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T05:29:16.852350+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T05:29:16.852350+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T05:33:45.477612+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T05:33:45.477612+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T05:34:25.389962+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T05:34:25.389962+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T05:43:03.868920+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T05:43:03.868920+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T05:49:03.678560+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T05:49:03.678560+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T05:49:47.552035+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T05:49:47.552035+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="13" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T05:54:03.063654+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T05:54:03.063654+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14" />
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:33:13.800991+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:33:13.800991+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:47:11.474052+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:47:11.474052+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:48:01.110578+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:48:01.110578+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:48:54.234325+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:48:54.234325+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:49:29.544418+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:49:29.544418+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:11:25.496543+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:11:25.496543+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:12:31.139175+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:12:31.139175+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:39:30.817405+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:39:30.817405+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="14" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:40:11.611542+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:40:11.611542+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15" />
+		<event>
+			<int key="case_id" value="15" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:12:48.005682+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:12:48.005682+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="15" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:19:09.872136+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:19:09.872136+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="15" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:19:22.695768+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:19:22.695768+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="15" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:25:09.951607+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:25:09.951607+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16" />
+		<event>
+			<int key="case_id" value="16" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:01:20.497648+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:01:20.497648+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="16" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:02:33.103450+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:02:33.103450+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="16" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:06:41.915146+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:06:41.915146+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="16" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:18:54.535046+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:18:54.535046+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="16" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:33:53.537597+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:33:53.537597+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17" />
+		<event>
+			<int key="case_id" value="17" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:33:36.992740+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:33:36.992740+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="17" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:39:51.351501+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:39:51.351501+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="17" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:56:07.453119+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:56:07.453119+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="17" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T13:04:44.451199+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T13:04:44.451199+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18" />
+		<event>
+			<int key="case_id" value="18" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:43:33.413036+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:43:33.413036+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="18" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:49:15.787037+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:49:15.787037+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="18" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:59:09.738574+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:59:09.738574+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="18" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T12:07:43.091692+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T12:07:43.091692+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="18" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T12:09:40.600498+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T12:09:40.600498+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19" />
+		<event>
+			<int key="case_id" value="19" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:21:08.068893+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:21:08.068893+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="19" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:23:22.872574+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:23:22.872574+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="19" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:43:22.590620+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:43:22.590620+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="19" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:50:52.277880+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:50:52.277880+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20" />
+		<event>
+			<int key="case_id" value="20" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:41:22.095228+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:41:22.095228+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="20" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:43:35.992686+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:43:35.992686+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="20" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T05:01:48.162118+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T05:01:48.162118+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="20" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T05:02:21.858054+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T05:02:21.858054+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="20" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T05:15:55.674441+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T05:15:55.674441+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21" />
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:39:49.931762+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:39:49.931762+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:45:41.801023+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:45:41.801023+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:47:17.350392+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:47:17.350392+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:59:02.052355+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:59:02.052355+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:59:52.747499+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:59:52.747499+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:17:36.110175+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:17:36.110175+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="21" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:17:57.892026+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:17:57.892026+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22" />
+		<event>
+			<int key="case_id" value="22" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:03:35.451879+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:03:35.451879+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="22" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:05:07.629046+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:05:07.629046+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="22" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:15:13.297020+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:15:13.297020+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="22" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T11:47:59.624859+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T11:47:59.624859+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="22" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T11:53:39.209288+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T11:53:39.209288+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23" />
+		<event>
+			<int key="case_id" value="23" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:23:56.538427+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:23:56.538427+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="23" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:25:25.416932+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:25:25.416932+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="23" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:33:38.864280+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:33:38.864280+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="23" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:39:19.546948+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:39:19.546948+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="23" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:40:10.134286+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:40:10.134286+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24" />
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:35:46.706784+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:35:46.706784+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:36:19.254539+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:36:19.254539+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:40:50.640819+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:40:50.640819+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:41:42.439419+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:41:42.439419+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:42:05.592902+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:42:05.592902+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:48:12.163693+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:48:12.163693+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="24" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:48:28.799394+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:48:28.799394+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25" />
+		<event>
+			<int key="case_id" value="25" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:27:49.968872+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:27:49.968872+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="25" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:29:24.567420+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:29:24.567420+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="25" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:37:03.465289+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:37:03.465289+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="25" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:37:53.246029+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:37:53.246029+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="25" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:42:12.253032+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:42:12.253032+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="25" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:43:11.712124+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:43:11.712124+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26" />
+		<event>
+			<int key="case_id" value="26" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:02:35.047570+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:02:35.047570+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="26" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:04:04.224946+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:04:04.224946+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="26" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:21:08.949047+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:21:08.949047+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="26" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:21:56.109117+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:21:56.109117+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="26" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:37:28.026727+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:37:28.026727+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27" />
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:21:30.498938+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:21:30.498938+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T06:29:00.577209+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T06:29:00.577209+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:36:17.035099+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:36:17.035099+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:42:35.822597+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:42:35.822597+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T06:43:40.916271+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T06:43:40.916271+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:49:31.968433+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:49:31.968433+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="27" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:56:54.685378+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:56:54.685378+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28" />
+		<event>
+			<int key="case_id" value="28" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:35:46.734419+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:35:46.734419+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="28" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:37:14.541792+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:37:14.541792+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="28" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T03:45:42.855496+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T03:45:42.855496+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="28" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T03:52:56.572797+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T03:52:56.572797+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29" />
+		<event>
+			<int key="case_id" value="29" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:42:41.016052+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:42:41.016052+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="29" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:46:47.333572+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:46:47.333572+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="29" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:57:29.136111+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:57:29.136111+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="29" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T10:10:27.668410+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T10:10:27.668410+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="29" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T10:10:58.394749+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T10:10:58.394749+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30" />
+		<event>
+			<int key="case_id" value="30" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:01:52.393714+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:01:52.393714+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="30" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:04:03.594151+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:04:03.594151+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="30" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:06:06.633723+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:06:06.633723+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="30" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:10:29.010870+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:10:29.010870+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="30" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:18:08.150644+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:18:08.150644+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="31" />
+		<event>
+			<int key="case_id" value="31" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:58:37.145541+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:58:37.145541+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="31" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T09:02:31.640995+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T09:02:31.640995+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="31" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:11:55.499539+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:11:55.499539+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="31" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:22:11.512090+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:22:11.512090+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="32" />
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:36:10.079575+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:36:10.079575+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:38:59.255915+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:38:59.255915+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:44:17.442885+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:44:17.442885+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:44:30.182580+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:44:30.182580+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:48:12.733510+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:48:12.733510+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:48:37.321504+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:48:37.321504+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:52:39.366016+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:52:39.366016+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:53:08.554421+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:53:08.554421+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T04:57:33.294620+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T04:57:33.294620+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="32" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T04:58:08.161651+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T04:58:08.161651+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="33" />
+		<event>
+			<int key="case_id" value="33" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T13:24:50.131190+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T13:24:50.131190+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="33" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T13:49:14.517529+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T13:49:14.517529+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="33" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T13:49:49.648981+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T13:49:49.648981+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="33" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T14:12:51.828310+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T14:12:51.828310+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="33" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T14:13:29.531734+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T14:13:29.531734+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="34" />
+		<event>
+			<int key="case_id" value="34" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:26:08.043391+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:26:08.043391+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="34" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T06:35:37.265107+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T06:35:37.265107+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="34" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:09:10.854033+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:09:10.854033+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="34" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:11:47.064017+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:11:47.064017+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="34" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:29:12.417865+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:29:12.417865+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="34" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:38:28.186847+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:38:28.186847+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="35" />
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:23:42.101018+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:23:42.101018+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:25:29.952779+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:25:29.952779+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:35:39.409663+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:35:39.409663+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:37:44.885561+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:37:44.885561+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:47:24.044840+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:47:24.044840+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:48:23.237360+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:48:23.237360+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:04:39.028620+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:04:39.028620+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="35" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T08:07:06.968799+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T08:07:06.968799+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="36" />
+		<event>
+			<int key="case_id" value="36" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T06:50:47.054202+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T06:50:47.054202+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="36" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T06:52:36.481164+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T06:52:36.481164+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="36" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:00:35.291404+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:00:35.291404+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="36" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T07:01:32.782657+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T07:01:32.782657+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="36" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T07:10:04.465864+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T07:10:04.465864+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="37" />
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T01:19:11.899890+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T01:19:11.899890+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T01:22:57.854979+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T01:22:57.854979+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T01:27:34.458408+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T01:27:34.458408+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T01:36:21.997935+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T01:36:21.997935+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T01:50:51.508498+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T01:50:51.508498+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:03:19.696244+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:03:19.696244+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="37" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:17:43.362234+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:17:43.362234+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="38" />
+		<event>
+			<int key="case_id" value="38" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:31:38.917616+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:31:38.917616+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="38" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:44:23.021810+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:44:23.021810+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="38" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:56:50.191008+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:56:50.191008+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="38" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T08:58:17.958136+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T08:58:17.958136+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="39" />
+		<event>
+			<int key="case_id" value="39" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:37:29.180981+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:37:29.180981+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="39" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:39:20.341565+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:39:20.341565+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="39" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:48:08.924275+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:48:08.924275+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="39" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:49:48.926939+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:49:48.926939+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="39" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T02:57:42.643924+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T02:57:42.643924+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="39" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T02:58:25.262223+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T02:58:25.262223+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="40" />
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="1st recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:29:44.304255+00:00" />
+			<string key="concept:name" value="1st recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:29:44.304255+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="revision" />
+			<date key="timestamp" value="2022-09-04T08:32:17.141955+00:00" />
+			<string key="concept:name" value="revision" />
+			<date key="time:timestamp" value="2022-09-04T08:32:17.141955+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="second recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:48:35.207313+00:00" />
+			<string key="concept:name" value="second recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:48:35.207313+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T08:57:47.087700+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T08:57:47.087700+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:04:35.411589+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:04:35.411589+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:10:44.490068+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:10:44.490068+00:00" />
+		</event>
+		<event>
+			<int key="case_id" value="40" />
+			<string key="activity" value="third recipe submitted" />
+			<date key="timestamp" value="2022-09-04T09:10:54.462516+00:00" />
+			<string key="concept:name" value="third recipe submitted" />
+			<date key="time:timestamp" value="2022-09-04T09:10:54.462516+00:00" />
 		</event>
 	</trace>
 </log>
