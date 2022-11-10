@@ -97,7 +97,7 @@ case_id;activity;timestamp
 16;revision;2022-09-04 12:02:33.103450
 16;second recipe submitted;2022-09-04 12:06:41.915146
 16;third recipe submitted;2022-09-04 12:18:54.535046
-16;third recipe submitted;2022-09-04 12:33:53.537597
+16;other recipe submitted;2022-09-04 12:33:53.537597
 17;1st recipe submitted;2022-09-04 12:33:36.992740
 17;revision;2022-09-04 12:39:51.351501
 17;second recipe submitted;2022-09-04 12:56:07.453119
@@ -156,8 +156,8 @@ case_id;activity;timestamp
 27;second recipe submitted;2022-09-04 06:36:17.035099
 27;third recipe submitted;2022-09-04 06:42:35.822597
 27;revision;2022-09-04 06:43:40.916271
-27;third recipe submitted;2022-09-04 06:49:31.968433
-27;third recipe submitted;2022-09-04 06:56:54.685378
+27;other recipe submitted;2022-09-04 06:49:31.968433
+27;other recipe submitted;2022-09-04 06:56:54.685378
 28;1st recipe submitted;2022-09-04 03:35:46.734419
 28;revision;2022-09-04 03:37:14.541792
 28;second recipe submitted;2022-09-04 03:45:42.855496
@@ -182,9 +182,9 @@ case_id;activity;timestamp
 32;revision;2022-09-04 04:44:30.182580
 32;third recipe submitted;2022-09-04 04:48:12.733510
 32;revision;2022-09-04 04:48:37.321504
-32;third recipe submitted;2022-09-04 04:52:39.366016
+32;other recipe submitted;2022-09-04 04:52:39.366016
 32;revision;2022-09-04 04:53:08.554421
-32;third recipe submitted;2022-09-04 04:57:33.294620
+32;other recipe submitted;2022-09-04 04:57:33.294620
 32;revision;2022-09-04 04:58:08.161651
 33;1st recipe submitted;2022-09-04 13:24:50.131190
 33;second recipe submitted;2022-09-04 13:49:14.517529
@@ -203,7 +203,7 @@ case_id;activity;timestamp
 35;revision;2022-09-04 07:37:44.885561
 35;third recipe submitted;2022-09-04 07:47:24.044840
 35;revision;2022-09-04 07:48:23.237360
-35;third recipe submitted;2022-09-04 08:04:39.028620
+35;other recipe submitted;2022-09-04 08:04:39.028620
 35;revision;2022-09-04 08:07:06.968799
 36;1st recipe submitted;2022-09-04 06:50:47.054202
 36;revision;2022-09-04 06:52:36.481164
@@ -216,7 +216,7 @@ case_id;activity;timestamp
 37;second recipe submitted;2022-09-04 01:36:21.997935
 37;revision;2022-09-04 01:50:51.508498
 37;third recipe submitted;2022-09-04 02:03:19.696244
-37;third recipe submitted;2022-09-04 02:17:43.362234
+37;other recipe submitted;2022-09-04 02:17:43.362234
 38;1st recipe submitted;2022-09-04 08:31:38.917616
 38;second recipe submitted;2022-09-04 08:44:23.021810
 38;third recipe submitted;2022-09-04 08:56:50.191008
@@ -231,6 +231,6 @@ case_id;activity;timestamp
 40;revision;2022-09-04 08:32:17.141955
 40;second recipe submitted;2022-09-04 08:48:35.207313
 40;third recipe submitted;2022-09-04 08:57:47.087700
-40;third recipe submitted;2022-09-04 09:04:35.411589
-40;third recipe submitted;2022-09-04 09:10:44.490068
-40;third recipe submitted;2022-09-04 09:10:54.462516
+40;other recipe submitted;2022-09-04 09:04:35.411589
+40;other recipe submitted;2022-09-04 09:10:44.490068
+40;other recipe submitted;2022-09-04 09:10:54.462516
