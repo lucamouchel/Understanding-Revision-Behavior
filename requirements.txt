@@ -1,0 +1,13 @@
+numpy
+pandas
+gensim
+scipy
+json
+ast
+import_ipynb
+seaborn
+matplotlib
+datetime
+pm4py
+nltk
+pyspark
