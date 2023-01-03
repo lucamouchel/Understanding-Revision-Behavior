@@ -170,7 +170,7 @@ case_id;activity;timestamp
 33;third recipe submitted;2022-09-04 03:02:27.898851
 33;revision;2022-09-04 03:11:38.417107
 33;revision;2022-09-04 03:17:55.124387
-33;revision;2022-09-04 03:19:22.968476
+;;
 34;1st recipe submitted;2022-09-04 02:58:37.984332
 34;revision;2022-09-04 03:01:27.926929
 34;second recipe submitted;2022-09-04 03:14:54.479866
@@ -187,7 +187,7 @@ case_id;activity;timestamp
 35;third recipe submitted;2022-09-04 06:01:21.290241
 35;revision;2022-09-04 06:02:44.635585
 35;revision;2022-09-04 06:14:45.174350
-35;revision;2022-09-04 06:15:54.203648
+;;
 36;1st recipe submitted;2022-09-04 07:20:02.672945
 36;revision;2022-09-04 07:26:40.788452
 36;second recipe submitted;2022-09-04 07:52:51.971788
