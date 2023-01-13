@@ -26,7 +26,6 @@ For the dataset in our study, it is sometimes more interesting to have some more
     """
 
 import pandas as pd
-import numpy as np
 import ast
 import utils
 from utils import *
