@@ -10,6 +10,7 @@ import pandas as pd
 import ast
 import numpy as np
 
+print("Loading...")
 df = pd.read_csv('./data/keystrokes-recipes-modified.csv')
 indices_of_first_attempts_per_user = df.groupby('user_id').head(1).index
 noisy_punct = [',', '.', '-', ':', '(', ')']

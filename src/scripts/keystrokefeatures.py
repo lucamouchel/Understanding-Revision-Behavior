@@ -27,8 +27,13 @@ For the dataset in our study, it is sometimes more interesting to have some more
 
 import pandas as pd
 import ast
-import utils
-from utils import *
+
+import sys
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath("src/util/utils.py"))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
+
+from util.utils import *
 
 dataset_path = 'data/keystrokes-recipes.csv'
 
@@ -43,7 +48,7 @@ def get_time_spent(user_id):
     indices = indices_where_written(user_id)
     first_time = df.loc[indices[0], 'event_date']
     last_time = df.loc[indices[-1], 'event_date']
-    diff = utils.time_difference(first_time, last_time)
+    diff = time_difference(first_time, last_time)
     if diff == 0: return 1
     return diff
 

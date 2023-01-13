@@ -5,7 +5,12 @@ import pm4py
 from pm4py.visualization.petri_net import  visualizer as pn_vis_factory
 from pm4py.objects.log.importer.xes import importer as xes_importer
 from pm4py.algo.discovery.alpha import  algorithm as alpha_miner
-from utils import *
+import sys
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath("src/util/utils.py"))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
+
+from util.utils import *
 
 def save_directly_follow_graph(csv_filepath, group_num):
     dataframe = pd.read_csv(csv_filepath, sep=';')
@@ -13,7 +18,7 @@ def save_directly_follow_graph(csv_filepath, group_num):
     event_log = pm4py.convert_to_event_log(dataframe)
     performance_dfg, start_activities, end_activities = pm4py.discover_performance_dfg(event_log)
     try:
-        pm4py.save_vis_performance_dfg(performance_dfg, start_activities, end_activities, 'results/process mining/groupnum3{n}.png'.format(n=group_num))
+        pm4py.save_vis_performance_dfg(performance_dfg, start_activities, end_activities, 'results/process mining/groupnum{n}.png'.format(n=group_num))
     except: 
         print('user only has 1 recipe')
 

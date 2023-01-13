@@ -10,13 +10,19 @@ If  minSupport is little and maxPatternLength is large, the running time of Pref
 The contrary gives reasonable running time but some subsequences can be left undiscovered.
 
 """
+
 import pandas as pd
 from pyspark.ml.fpm import PrefixSpan
 from pyspark.shell import sc
 from pyspark.sql.functions import desc
 from pyspark.sql.types import Row
 import matplotlib.pyplot as plt
-from utils import *
+
+import sys
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath("src/util/utils.py"))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
+from util.utils  import *
 
 NUM_PATTERNS_TO_PLOT = 25
 MIN_SUPPORT = .3
