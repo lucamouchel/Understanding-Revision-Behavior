@@ -6,14 +6,14 @@ This repository is the official implementation of the paper submitted at EDM 202
 Otherwise `src/scripts/` consists of additional files to apply pattern mining, process mining and extract keystroke features.
 
 ## Project Overview
-We analyze log data from a writing experiment to measure users' self-regulated learning and observe revision behavior by extracting multiple keystroke features. Our analysis demonstrates users in the two groups revise very differently. 
+We analyze log data from a writing experiment (`data\keystroke-recipes.csv`) to measure users' self-regulated learning and observe revision behavior by extracting multiple keystroke features. A description of our analysis and results can be consulted in our paper. 
 
-We apply a pattern mining algorithm on insert-delete sequences to extract relevant sequences groups have in common (more in `src/scripts/patternmining.py`) and process mining to produce directly-follows graphs on event logs recording user activity in each group (`src/scripts/patternmining.py`).
+We apply a pattern mining algorithm on insert-delete sequences to extract relevant sequences groups have in common (more in `src/scripts/patternmining.py`) and process mining to produce directly-follows graphs on event logs (availabe at `data\eventlogs`) recording user activity in each group (`src/scripts/processmining.py`).
 
-This project started in September 2022 at EPFL, has been submitted and accepted at EDM 2023, taking place in Bangalore, India.
+This project started in September 2022 at EPFL, has been accepted at EDM 2023 as a poster paper, taking place in Bangalore, India.
 
 ## Usage guide
-- Install relevant dependencies with `pip install -r requirements.txt`. 
+- Install relevant dependencies with `pip install -r requirements.txt`, or simply run `RevisionBehavior.ipynb`, this command is already implemented. 
 
 - You can also run the scripts for pattern mining and process mining to generate DFGs and observe common patterns.
 
