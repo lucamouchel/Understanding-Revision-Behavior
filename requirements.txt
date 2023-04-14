@@ -1,0 +1,10 @@
+numpy
+pandas
+gensim
+scipy
+seaborn
+matplotlib
+datetime
+pm4py
+nltk
+pyspark
