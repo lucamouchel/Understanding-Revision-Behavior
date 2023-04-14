@@ -33,19 +33,8 @@ INDICES = []
 """
 groups = {1: [], 2: []}
 for i, dic in enumerate(s.values):
-    user = dic[1]
-    if user in sorted_users:
-        group = users_to_groups[user]
-        if group == 2:
-            groups[1].append(user)
-        elif group == 4:
-            groups[2].append(user)
-for group in [1,2]:
-    indices = []
-    for user in groups[group]:
-        i = np.where(np.array(sorted_users) == user)
-        indices.append(i[0][0])
-    INDICES.append(indices)
+    groups[users_to_groups[dic[1]]].append(dic[1])
+INDICES = [[sorted_users.index(user) for user in groups[group]] for group in [1, 2]]
 
 print("Done loading")
 
