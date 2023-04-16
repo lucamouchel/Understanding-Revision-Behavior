@@ -12,6 +12,12 @@ We apply a pattern mining algorithm on insert-delete sequences to extract releva
 
 This project started in September 2022 at EPFL, has been accepted at EDM 2023 as a poster paper, taking place in Bangalore, India.
 
+## Methodology
+We opted to use the Knowledge Discovery Process as depicted on the following as a basis on which to structure this project.
+<figure>
+  <img src="https://user-images.githubusercontent.com/73081373/232310439-c8a50594-0842-47f4-81e9-d1d4ea9ff784.png" alt="Methodology" width="350" height="350">
+</figure>
+
 ## Usage guide
 - Install relevant dependencies with `pip install -r requirements.txt`, or simply run `RevisionBehavior.ipynb`, this command is already implemented. 
 
