@@ -11,8 +11,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath("src/util/utils.py"))
 sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 from util.utils import *
-import util.utils as utils
-
+utils = Utils('data/keystrokes-recipes.csv')
 
 def save_directly_follow_graph(csv_filepath, group_num):
     """
@@ -30,7 +29,7 @@ def save_directly_follow_graph(csv_filepath, group_num):
 
 
 
-user_to_recipes = get_map_user_to_recipes()
+user_to_recipes = utils.get_map_user_to_recipes()
 ACTIONS = [';1st recipe submitted;', ';revision;', ';second recipe submitted;']
 def generate_user_activity(user_index, case_id):
     """
@@ -53,14 +52,14 @@ def generate_user_activity(user_index, case_id):
     """
     recipe_indices = user_to_recipes[user_index].copy()
     recipe_indices.append(utils.get_last_index_where_written(user_index))
-    where_in_df = np.where(df['user_id'] == sorted_users[user_index])
-    first_line = str(case_id) + ACTIONS[0] + df.loc[where_in_df[0][0], 'event_date']             
+    where_in_df = np.where(utils.df['user_id'] == utils.sorted_users[user_index])
+    first_line = str(case_id) + ACTIONS[0] + utils.df.loc[where_in_df[0][0], 'event_date']             
     lines = [first_line]
     for i, index in enumerate(range(recipe_indices[0]+1, recipe_indices[-1]+1)):
         j = index
         is_new_recipe = index in recipe_indices
         while not is_new_recipe:
-            line = ACTIONS[1] + df.loc[where_in_df[0][i+1], 'event_date']
+            line = ACTIONS[1] + utils.df.loc[where_in_df[0][i+1], 'event_date']
             lines.append(line)
             j+=1
             if j in recipe_indices: is_new_recipe = True
@@ -98,7 +97,7 @@ def create_event_log(groupnum):
             groupnum (int): the group number (1 or 2) 
         """
         event_log = []
-        for j, user in enumerate(INDICES[groupnum-1]):
+        for j, user in enumerate(utils.INDICES[groupnum-1]):
             user_activity = generate_user_activity(user_index=user, case_id=j+1)
             event_log.append(user_activity)
         res = pd.concat(event_log)

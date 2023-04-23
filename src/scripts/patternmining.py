@@ -24,23 +24,25 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath("src/util/utils.py"))
 sys.path.append(os.path.dirname(SCRIPT_DIR))
 from util.utils  import *
 
+utils = Utils('data/keystrokes-recipes.csv')
+df = utils.df
 NUM_PATTERNS_TO_PLOT = 25
 MIN_SUPPORT = .3
 MAX_PATTERN_LENGTH = 10
 
 ins_del_dict = {'insert': 0, 'delete': 1}
 recipe_sequences = []
-for user in sorted(sorted_users):
+for user in sorted(utils.sorted_users):
     indices_where_written = df[df['user_id'] == user].index
     for index in indices_where_written:
-        ks_set = all_keystrokes[index]
+        ks_set = utils.all_keystrokes[index]
         recipe_sequence = []
         for entry in ks_set:
-            word = entry['word']
-            if word not in KEYWORDS:
+            char = entry['character']
+            if char not in utils.KEYWORDS:
                 #+1 to account for the space
                 recipe_sequence.append(ins_del_dict['insert'])
-            elif word == 'Backspace' or word == 'Delete':
+            elif char == 'Backspace' or char == 'Delete':
                 recipe_sequence.append(ins_del_dict['delete'])
         recipe_sequences.append(recipe_sequence)                               
 
@@ -75,7 +77,7 @@ def compute_prefix_span_on_revision_step(n, minSupport=.3, maxPatternLength=10):
     """
     #We must select only users that have n revisions - not everyone has 10 revision for example.
     users_with_n_revisions =  \
-        [indices_of_first_attempts_per_user[i]+n if indices_of_first_attempts_per_user[i+1] - indices_of_first_attempts_per_user[i] >= n else -1 for i in range(len(indices_of_first_attempts_per_user)-1)]
+        [utils.indices_of_first_attempts_per_user[i]+n if utils.indices_of_first_attempts_per_user[i+1] - utils.indices_of_first_attempts_per_user[i] >= n else -1 for i in range(len(utils.indices_of_first_attempts_per_user)-1)]
     nth_revision = []
     for index in users_with_n_revisions:
         if index != -1:

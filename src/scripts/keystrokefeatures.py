@@ -36,6 +36,7 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 from util.utils import *
 
 dataset_path = 'data/keystrokes-recipes.csv'
+utils = Utils(dataset_path)
 
 df = pd.read_csv(dataset_path).sort_values(by=['user_id', 'event_date'])
 df.to_csv(dataset_path, index=False)
@@ -48,7 +49,7 @@ def get_time_spent(user_id):
     indices = indices_where_written(user_id)
     first_time = df.loc[indices[0], 'event_date']
     last_time = df.loc[indices[-1], 'event_date']
-    diff = time_difference(first_time, last_time)
+    diff = utils.time_difference(first_time, last_time)
     if diff == 0: return 1
     return diff
 
@@ -61,7 +62,7 @@ def compute_num_insertions_deletions(user_id):
         assert df.iloc[i]['user_id'] == user_id
         ks = ast.literal_eval(df.loc[i, 'ks'])
         chars = [entry['character'] for entry in ks]
-        num_insertions += len(list(filter(lambda _ : _  not in KEYWORDS, chars)))
+        num_insertions += len(list(filter(lambda _ : _  not in utils.KEYWORDS, chars)))
         num_deletions += len(list(filter(lambda _ : _ == 'Backspace' or _ == 'Delete', chars)))
     return (num_insertions, num_deletions)
 
