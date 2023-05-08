@@ -22,6 +22,7 @@ class Utils:
         self.all_keystrokes = list(map(lambda _ : ast.literal_eval(_) , self.df['ks'].values))
         self.KEYWORDS = ['Alt', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'Backspace', 'CapsLock', 'Control', 'Delete', 'End', 'Enter', 'Home', 'Meta', 'PageUp', 'PageDown', 'PrintScreen','Shift', 'Tab']
         self.sorted_users = sorted(self.df['user_id'].unique())
+        self.vectors = []
         if additional_data_path is not None:
             self.matching_data = pd.read_csv(additional_data_path)
             self.users_to_groups = dict(self.matching_data.filter(['user_id', 'group']).values)
@@ -198,7 +199,8 @@ class Utils:
                 except:
                     continue
 
-            arr = np.array(arr)
+            self.vectors= arr
+            arr = np.array(arr)      
             return np.sum(arr, axis=0)
 
         recipes = self.df['recipe'].values
@@ -245,6 +247,7 @@ class Utils:
         dframe.columns =['recipe index in data', 'recipe', 'user id']
         return dframe
 
+    
     def get_map_user_to_recipes(self):
         """
         Maps user id to the list of indices of recipes written by that user
@@ -257,3 +260,6 @@ class Utils:
             dict: user id to list of recipe indices
         """
         return self.separate_sessions().groupby('user id')["recipe index in data"].apply(list)
+
+    def get_vectors(self):
+        return self.vectors

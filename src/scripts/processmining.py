@@ -21,7 +21,7 @@ def save_directly_follow_graph(csv_filepath, group_num):
         csv_filepath (str): event log file path
         group_num (int): event log for group number
     """
-    dataframe = pd.read_csv(csv_filepath, sep=';')
+    dataframe = pd.read_csv(csv_filepath, sep=';', engine='python')
     event_log = pm4py.format_dataframe(dataframe, case_id='case_id', activity_key='activity', timestamp_key='timestamp')
     event_log = pm4py.convert_to_event_log(dataframe)
     performance_dfg, start_activities, end_activities = pm4py.discover_performance_dfg(event_log)
@@ -30,7 +30,7 @@ def save_directly_follow_graph(csv_filepath, group_num):
 
 
 user_to_recipes = utils.get_map_user_to_recipes()
-ACTIONS = [';1st recipe submitted;', ';revision;', ';second recipe submitted;']
+ACTIONS = [';1st recipe submitted;', ';revision;', ';2nd recipe submitted;']
 def generate_user_activity(user_index, case_id):
     """
     Generates the activity for one user in the event log
@@ -64,7 +64,7 @@ def generate_user_activity(user_index, case_id):
             j+=1
             if j in recipe_indices: is_new_recipe = True
         try:
-            if index in recipe_indices : lines.append(ACTIONS[2] + df.loc[where_in_df[0][i+1], 'event_date'])
+            if index in recipe_indices : lines.append(ACTIONS[2] + utils.df.loc[where_in_df[0][i+1], 'event_date'])
         except: continue
         
     result = lines
@@ -75,11 +75,11 @@ def generate_user_activity(user_index, case_id):
         elif line.startswith(ACTIONS[2]):
             second_recipe_already_submitted = any([ACTIONS[2] in l for l in result[:i]])
             if second_recipe_already_submitted:
-                result[i] = str(case_id) + line.replace('second', 'third') 
+                result[i] = str(case_id) + line.replace('2nd', '3rd') 
             else : result[i] = str(case_id) + line
         
     for i, line in enumerate(result):
-        replaced = ACTIONS[2].replace('second', 'third')
+        replaced = ACTIONS[2].replace('2nd', '3rd')
         if line.startswith(str(case_id) + replaced):
             has_submitted_third_recipe = any([replaced in l for l in result[:i]])
             if has_submitted_third_recipe:
