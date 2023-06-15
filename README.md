@@ -1,6 +1,6 @@
-# Understanding Revision Behavior
+# Understanding Revision Behavior in Adaptive Writing Support Systems For Education
 
-This repository is the official implementation of the paper submitted at EDM 2023 entitled "Understanding Revision Behavior in Adaptive Writing Support Systems in Education", by Luca Mouchel, Thiemo Wambsganss, Paola Mejia and Tanja Käser.
+This repository is the official implementation of the paper submitted at EDM 2023 entitled "Understanding Revision Behavior in Adaptive Writing Support Systems for Education", by Luca Mouchel, Thiemo Wambsganss, Paola Mejia and Tanja Käser.
 
 `RevisionBehavior.ipynb` is the principal component of this study, combining most of the useful tools to study and visualize revision behavior.
 Otherwise `src/scripts/` consists of additional files to apply pattern mining, process mining and extract keystroke features.
