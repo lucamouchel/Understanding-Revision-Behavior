@@ -1,22 +1,16 @@
-# Understanding Revision Behavior
+# Understanding Revision Behavior in Adaptive Writing Support Systems For Education
 
-This repository is the official implementation of the paper submitted at EDM 2023 entitled "Understanding Revision Behavior in Adaptive Writing Support Systems in Education", by Luca Mouchel, Thiemo Wambsganss, Paola Mejia and Tanja Käser.
+This repository is the official implementation of the paper submitted at EDM 2023 entitled "Understanding Revision Behavior in Adaptive Writing Support Systems for Education", by Luca Mouchel, Thiemo Wambsganss, Paola Mejia and Tanja Käser.
 
 `RevisionBehavior.ipynb` is the principal component of this study, combining most of the useful tools to study and visualize revision behavior.
 Otherwise `src/scripts/` consists of additional files to apply pattern mining, process mining and extract keystroke features.
 
 ## Project Overview
-We analyze log data from a writing experiment (`data\keystroke-recipes.csv`) to measure users' self-regulated learning and observe revision behavior by extracting multiple keystroke features. A description of our analysis and results can be consulted in our paper. 
+We analyze log data from a writing experiment (`data/keystroke-recipes.csv`) to measure users' self-regulated learning and observe revision behavior by extracting multiple keystroke features. A description of our analysis and results can be consulted in our paper. 
 
-We apply a pattern mining algorithm on insert-delete sequences to extract relevant sequences groups have in common (more in `src/scripts/patternmining.py`) and process mining to produce directly-follows graphs on event logs (availabe at `data\eventlogs`) recording user activity in each group (`src/scripts/processmining.py`).
+We apply a pattern mining algorithm on insert-delete sequences to extract relevant sequences groups have in common (more in `src/scripts/patternmining.py`) and process mining to produce directly-follows graphs on event logs (availabe at `data/eventlogs`) recording user activity in each group (`src/scripts/processmining.py`).
 
-This project started in September 2022 at EPFL, has been accepted at EDM 2023 as a poster paper, taking place in Bangalore, India.
-
-## Methodology
-We opted to use the Knowledge Discovery Process as depicted on the following as a basis on which to structure this project.
-<figure>
-  <img src="https://user-images.githubusercontent.com/73081373/232310439-c8a50594-0842-47f4-81e9-d1d4ea9ff784.png" alt="Methodology" width="350" height="350">
-</figure>
+This project started in September 2022 at EPFL and has been accepted at EDM 2023 as a poster paper, taking place in Bangalore, India.
 
 ## Usage guide
 - Install relevant dependencies with `pip install -r requirements.txt`, or simply run `RevisionBehavior.ipynb`, this command is already implemented. 
