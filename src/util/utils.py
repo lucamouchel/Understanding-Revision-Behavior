@@ -39,13 +39,14 @@ class Utils:
         """
         num_groups = self.s['group'].unique().shape[0]
         groups = {i:[] for i in range(1, num_groups + 1)}
+        print(groups)
         self.span = [i for i in range(1, num_groups + 1)]
         for i, dic in enumerate(self.s.values):
             groups[self.users_to_groups[dic[1]]].append(dic[1])
         self.INDICES = [[self.sorted_users.index(user) for user in groups[group] if user in self.sorted_users] for group in self.span]
-
+        print(groups)
+        print(self.INDICES)
         print("Done loading")
-
     def get_last_index_where_written(self, user_index):
         """
         Returns the last index where a user has written in the dataset
@@ -275,3 +276,5 @@ class Utils:
 
     def get_vectors(self):
         return self.vectors
+    
+utils = Utils(path = 'data/keystrokes-all_recipes.csv', additional_data_path='data/groupmatching5groups.csv')
