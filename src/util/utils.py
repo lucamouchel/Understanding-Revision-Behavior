@@ -13,7 +13,7 @@ import numpy as np
 
 
 class Utils:
-    def __init__(self, path: str = 'data/keystrokes-recipes.csv', additional_data_path: str = 'data/groupmatching.csv') -> None:
+    def __init__(self, path: str = 'data/keystrokes-recipes-groups4.csv', additional_data_path: str = 'data/groupmatching4.csv') -> None:
             
         print('Loading utils')
         self.df = pd.read_csv(path)
@@ -37,10 +37,10 @@ class Utils:
             so INDICES has 2 arrays, each containing the indices of the users in that group.
             
         """
-        groups = {1: [], 2: []}
+        groups = {1: [], 2: [], 3: [], 4: [], 5: []}
         for i, dic in enumerate(self.s.values):
             groups[self.users_to_groups[dic[1]]].append(dic[1])
-        self.INDICES = [[self.sorted_users.index(user) for user in groups[group]] for group in [1, 2]]
+        self.INDICES = [[self.sorted_users.index(user) for user in groups[group]] for group in [1, 2,3,4,5]]
 
         print("Done loading")
 
@@ -224,20 +224,20 @@ class Utils:
             vec = get_vector(recipes[start_index])
             for i in range(start_index, len(recipes)):
                 dist = 1 - spatial.distance.cosine(vec, get_vector(recipes[i]))
-                if dist < .995:
+                if dist < .895:
                     acc.append(i)
                     return compute_recipe_indices(i, acc)
 
         recipes_indices = compute_recipe_indices(0, [0])
 
         # Out of 450 samples, we only have  31 misclassified samples that are misclassified as new recipes so the algorithm is pretty effective
-        to_remove = [13, 116, 134, 156, 168, 188, 249, 255, 256, 403, 88, 90, 128, 209, 376, 379, 381, 390, 391, 393, 394,395,  444]
-        add = [121, 204, 254, 336, 97, 360, 362, 392]
-        for i in to_remove:
-            recipes_indices.remove(i)
+        #to_remove = [13, 116, 134, 156, 168, 188, 249, 255, 256, 403, 88, 90, 128, 209, 376, 379, 381, 390, 391, 393, 394,395,  444]
+        #add = [121, 204, 254, 336, 97, 360, 362, 392]
+        #for i in to_remove:
+        #    recipes_indices.remove(i)
 
-        for i in add:
-            recipes_indices.append(i) 
+        #for i in add:
+        #    recipes_indices.append(i) 
 
         recipes_indices = sorted(recipes_indices)
 
