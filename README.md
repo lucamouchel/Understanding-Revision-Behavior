@@ -22,8 +22,27 @@ This project started in September 2022 at EPFL and has been accepted at EDM 2023
 ## Contributing
 This code is provided for educational purposes and aims to facilitate reproduction of our results, and further research in this direction. We have done our best to document, refactor our code.
 
-If you find this code useful for any related works and research, please cite our work with the following : TODO
+If you find this code useful for any related works and research, please cite our work with the following : 
 
+```
+@inproceedings{luca_mouchel_2023_8115766,
+author       = {Luca Mouchel and
+                  Thiemo Wambsganss and
+                  Paola Mejia-Domenzain and
+                  Tanja Käser},
+  title        = {{Understanding Revision Behavior in Adaptive 
+                   Writing Support Systems for Education}},
+  booktitle    = {{Proceedings of the 16th International Conference 
+                   on Educational Data Mining}},
+  year         = 2023,
+  pages        = {445--452},
+  publisher    = {International Educational Data Mining Society},
+  month        = jul,
+  venue        = {Bengaluru, India},
+  doi          = {10.5281/zenodo.8115766},
+  url          = {https://doi.org/10.5281/zenodo.8115766}
+}
+```
 If you find any bugs or would like to contribute please let us know. Feel free to file issues and pull requests on the repo and we will address them as we can.
 
 ## License 
