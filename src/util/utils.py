@@ -37,13 +37,14 @@ class Utils:
             so INDICES has 2 arrays, each containing the indices of the users in that group.
             
         """
-        groups = {1: [], 2: []}
+        num_groups = self.s['group'].unique().shape[0]
+        groups = {i:[] for i in range(1, num_groups + 1)}
+        self.span = [i for i in range(1, num_groups + 1)]
         for i, dic in enumerate(self.s.values):
             groups[self.users_to_groups[dic[1]]].append(dic[1])
-        self.INDICES = [[self.sorted_users.index(user) for user in groups[group]] for group in [1, 2]]
-
+        self.INDICES = [[self.sorted_users.index(user) for user in groups[group] if user in self.sorted_users] for group in self.span]
+        
         print("Done loading")
-
     def get_last_index_where_written(self, user_index):
         """
         Returns the last index where a user has written in the dataset
@@ -138,9 +139,15 @@ class Utils:
         text = """% change in {metric}
         \u2022 group 1: {group1}%
         \u2022 group 2: {group2}%
+        \u2022 group 3: {group3}%
+        \u2022 group 4: {group4}%
+        \u2022 group 5: {group5}%
     """.format(metric=metric, 
     group1=compute_diff_percentage(data.loc['group 1']),
-    group2=compute_diff_percentage(data.loc['group 2'])
+    group2=compute_diff_percentage(data.loc['group 2']),
+    group3=compute_diff_percentage(data.loc['group 3']),
+    group4=compute_diff_percentage(data.loc['group 4']),
+    group5=compute_diff_percentage(data.loc['CG'])
     )
         return text
 
@@ -219,7 +226,7 @@ class Utils:
             Returns:
                 list(int) : list of indices of beginning of each recipe
             """
-            if start_index >= len(recipes) - 1:
+            if start_index >= len(recipes) - 2:
                 return acc
             vec = get_vector(recipes[start_index])
             for i in range(start_index, len(recipes)):
@@ -229,10 +236,19 @@ class Utils:
                     return compute_recipe_indices(i, acc)
 
         recipes_indices = compute_recipe_indices(0, [0])
-
         # Out of 450 samples, we only have  31 misclassified samples that are misclassified as new recipes so the algorithm is pretty effective
-        to_remove = [13, 116, 134, 156, 168, 188, 249, 255, 256, 403, 88, 90, 128, 209, 376, 379, 381, 390, 391, 393, 394,395,  444]
-        add = [121, 204, 254, 336, 97, 360, 362, 392]
+        to_remove = []
+        add =  []
+        #to_remove = [13, 116, 134, 156, 168, 188, 249, 255, 256, 403, 88, 90, 128, 209, 376, 379, 381, 390, 391, 393, 394,395,  444]
+        #add = [121, 204, 254, 336, 97, 360, 362, 392]
+
+        to_remove = [30, 40, 43, 52, 94,151, 166, 184, 212, 238, 248, 256, 268, 274, 301, 318, 334,
+                    365, 374, 404, 413, 423, 458, 491, 510, 554, 560, 561, 580, 611, 674, 767, 769, 780, 786, 802, 840, 868, 914, 919, 922, 924,
+                    933, 934, 936, 937, 954, 999, 1001, 1014, 1043, 1085]
+
+
+        add = [95, 107,181 , 202, 251, 261, 388, 404, 529, 559, 596, 688, 793, 830, 879, 881,917, 1001, 1034, 1085]
+        
         for i in to_remove:
             recipes_indices.remove(i)
 

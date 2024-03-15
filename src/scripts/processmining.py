@@ -11,7 +11,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath("src/util/utils.py"))
 sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 from util.utils import *
-utils = Utils('data/keystrokes-recipes.csv')
+utils = Utils('data/keystrokes-all_recipes.csv', additional_data_path='data/groupmatching5groups.csv')
 
 def save_directly_follow_graph(csv_filepath, group_num):
     """
@@ -108,3 +108,6 @@ def create_event_log(groupnum):
 
 create_event_log(groupnum=1)
 create_event_log(groupnum=2)
+create_event_log(groupnum=3)
+create_event_log(groupnum=4)
+create_event_log(groupnum=5)

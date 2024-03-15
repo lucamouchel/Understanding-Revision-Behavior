@@ -35,8 +35,8 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 from util.utils import *
 
-dataset_path = 'data/keystrokes-recipes.csv'
-utils = Utils(dataset_path)
+dataset_path = 'data/keystrokes-all_recipes.csv'
+utils = Utils(dataset_path, additional_data_path='data/groupmatching5groups.csv')
 
 df = pd.read_csv(dataset_path).sort_values(by=['user_id', 'event_date'])
 df.to_csv(dataset_path, index=False)
